@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/java-syntax-practice/java-syntax-practice-basics/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/java-data-structure-algorithm/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/java-data-structure-algorithm/src/main/dto" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
