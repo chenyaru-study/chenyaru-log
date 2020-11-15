@@ -1,3 +1,7 @@
+import java.lang.reflect.Field;
+import java.util.ArrayList;
+import java.util.Arrays;
+
 /**
  * Created by c_chenyaru on 2020/10/23.
  */
@@ -5,6 +9,20 @@ public class DataStructureDemoMain {
     public static void main(String[] args) {
         DataStructureDemoMain structureDemoMain = new DataStructureDemoMain();
         structureDemoMain.chainListStructureTest();
+       /* ChainListDto chainListDto = new ChainListDto();
+        chainListDto.setName("test");
+        Class cl = chainListDto.getClass();
+        Field f;
+        f = cl.getDeclaredField("name");
+        f.setAccessible(true);
+        Object obj = f.get(chainListDto);*/
+        /*ArrayList<Integer> squens = new ArrayList<>();
+        for(int i = 0; i <= 5; i++){
+            squens.add(i * i);
+            System.out.println(new ObjectAnalyzerTest().toString(squens));
+
+        }*/
+
     }
 
     /**

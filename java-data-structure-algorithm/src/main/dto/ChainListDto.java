@@ -2,9 +2,9 @@
  * Created by c_chenyaru on 2020/10/23.
  */
 public class ChainListDto {
-    String key;
-    String name;
-    Integer age;
+    private String key;
+    private String name;
+    private Integer age;
 
     public String getKey() {
         return key;

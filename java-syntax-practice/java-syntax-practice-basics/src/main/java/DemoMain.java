@@ -1,3 +1,7 @@
+package src.main.java;
+
+import org.omg.CORBA.IntHolder;
+
 import java.io.InputStream;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -13,13 +17,20 @@ public class DemoMain {
         if(DEMO_ONE.equals("demotest")){
             System.out.println("args = [" + DEMO_ONE + "]");
         }*/
-        DemoMain demoMain = new DemoMain();
+        //DemoMain demoMain = new DemoMain();
        // demoMain.testOne();
        // demoMain.syntaxPracticeString();
         //demoMain.inOrOut();
         //demoMain.switchTest();
         //demoMain.breakTest();
-        demoMain.arrayListTest();
+     //   demoMain.arrayListTest();
+       // demoMain.objectTestA(new IntHolder(2));
+        Employee employeeA = new Employee();
+        employeeA.setSalary(10);
+        Employee employeeB = new Employee();
+        employeeB.setSalary(20);
+        int result = employeeA.compareTo(employeeB);
+        System.out.println("result = " + result);
     }
     /**
      * Java语法-运算符
@@ -140,6 +151,22 @@ public class DemoMain {
         System.out.println("temp value:" + temp[0]);
         System.out.println("copyTemp:" + coppyTemp);
         System.out.println("copyTemp value:" + coppyTemp[0]);
+    }
+    /**
+     * Java语法-Object:所有类的超类
+     */
+    private void objectTest(){
+        Employee employeeA = new Employee();
+        Employee employeeB = new Employee();
+        boolean resultFlag = employeeA.equals(employeeB);
+        System.out.println(resultFlag);
+    }
+    /**
+     * Java语法-自动装箱拆箱
+     */
+    public void objectTestA(IntHolder intHolder){
+        intHolder.value = intHolder.value + 3;
+        System.out.println("intHolder = " + intHolder.value);
     }
 
 }
