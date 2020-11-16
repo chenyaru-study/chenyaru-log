@@ -5,21 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b2205aa-ecd8-4c2a-8fc1-3897b30b3cef" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/java/InterfaceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/service/StringFunc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/utils/LengthComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/utils/MyStringOps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/utils/TimePrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/dto/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/java/InnerClassMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/utils/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/utils/TalkingClock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-data-structure-algorithm/src/main/dto/ChainListDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-data-structure-algorithm/src/main/dto/ChainListDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-data-structure-algorithm/src/main/java/DataStructureDemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-data-structure-algorithm/src/main/java/DataStructureDemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-language-practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-language-practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-syntax-practice/Java编程语言学习简介.md" beforeDir="false" afterPath="$PROJECT_DIR$/java-syntax-practice/Java编程语言学习简介.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/java/DemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/java/DemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/java/ObjDemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/java/ObjDemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/others/编程快捷键整理.md" beforeDir="false" afterPath="$PROJECT_DIR$/others/编程快捷键整理.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/java/InterfaceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/java/InterfaceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/service/StringFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/service/StringFunc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +63,7 @@
       <recent name="E:\java-language-practice\java-data-structure-algorithm\src\main\dto" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InterfaceExample">
+  <component name="RunManager" selected="Application.InnerClassMain">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -165,14 +157,6 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration name="DataStructureDemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataStructureDemoMain" />
-      <module name="java-language-practice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../java-language-practice" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DemoMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.main.java.DemoMain" />
       <module name="java-language-practice" />
@@ -195,6 +179,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InnerClassMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.main.java.InnerClassMain" />
+      <module name="java-language-practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../java-language-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InterfaceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.main.java.InterfaceExample" />
       <module name="java-language-practice" />
@@ -209,10 +207,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StructureDemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StructureDemoMain" />
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.main.utils.LinkedList" />
       <module name="java-language-practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../java-language-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.main.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -308,18 +312,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.DemoMain" />
-      <item itemvalue="Application.StructureDemoMain" />
-      <item itemvalue="Application.DataStructureDemoMain" />
       <item itemvalue="Application.DemoMain (1)" />
       <item itemvalue="Application.InterfaceExample" />
+      <item itemvalue="Application.LinkedList" />
+      <item itemvalue="Application.InnerClassMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InnerClassMain" />
+        <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.InterfaceExample" />
         <item itemvalue="Application.DemoMain (1)" />
         <item itemvalue="Application.DemoMain" />
-        <item itemvalue="Application.DataStructureDemoMain" />
-        <item itemvalue="Application.StructureDemoMain" />
       </list>
     </recent_temporary>
   </component>
@@ -362,7 +366,7 @@
       <workItem from="1605317384446" duration="7124000" />
       <workItem from="1605333947066" duration="5546000" />
       <workItem from="1605357727653" duration="6920000" />
-      <workItem from="1605408345514" duration="2038000" />
+      <workItem from="1605408345514" duration="15153000" />
     </task>
     <servers />
   </component>
@@ -378,10 +382,10 @@
       <screen x="0" y="0" width="1421" height="848" />
     </state>
     <state x="165" y="79" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1421.848@0.0.1421.848" timestamp="1604723236928" />
-    <state x="507" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1605324228903">
+    <state x="507" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1605429293104">
       <screen x="0" y="0" width="1421" height="848" />
     </state>
-    <state x="507" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1421.848@0.0.1421.848" timestamp="1605324228903" />
+    <state x="507" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1421.848@0.0.1421.848" timestamp="1605429293104" />
     <state x="445" y="344" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604936808155">
       <screen x="0" y="0" width="1421" height="848" />
     </state>
@@ -394,22 +398,38 @@
       <screen x="0" y="0" width="1421" height="848" />
     </state>
     <state x="367" y="140" key="FileChooserDialogImpl/0.0.1421.848@0.0.1421.848" timestamp="1605024042531" />
-    <state width="1356" height="205" key="GridCell.Tab.0.bottom" timestamp="1605368383103">
+    <state width="1357" height="258" key="GridCell.Tab.0.bottom" timestamp="1605432792832">
       <screen x="0" y="0" width="1421" height="848" />
     </state>
-    <state width="1356" height="205" key="GridCell.Tab.0.bottom/0.0.1421.848@0.0.1421.848" timestamp="1605368383103" />
-    <state width="1356" height="205" key="GridCell.Tab.0.center" timestamp="1605368383102">
+    <state width="1357" height="258" key="GridCell.Tab.0.bottom/0.0.1421.848@0.0.1421.848" timestamp="1605432792832" />
+    <state width="1357" height="258" key="GridCell.Tab.0.center" timestamp="1605432792832">
       <screen x="0" y="0" width="1421" height="848" />
     </state>
-    <state width="1356" height="205" key="GridCell.Tab.0.center/0.0.1421.848@0.0.1421.848" timestamp="1605368383102" />
-    <state width="1356" height="205" key="GridCell.Tab.0.left" timestamp="1605368383102">
+    <state width="1357" height="258" key="GridCell.Tab.0.center/0.0.1421.848@0.0.1421.848" timestamp="1605432792832" />
+    <state width="1357" height="258" key="GridCell.Tab.0.left" timestamp="1605432792832">
       <screen x="0" y="0" width="1421" height="848" />
     </state>
-    <state width="1356" height="205" key="GridCell.Tab.0.left/0.0.1421.848@0.0.1421.848" timestamp="1605368383102" />
-    <state width="1356" height="205" key="GridCell.Tab.0.right" timestamp="1605368383102">
+    <state width="1357" height="258" key="GridCell.Tab.0.left/0.0.1421.848@0.0.1421.848" timestamp="1605432792832" />
+    <state width="1357" height="258" key="GridCell.Tab.0.right" timestamp="1605432792832">
       <screen x="0" y="0" width="1421" height="848" />
     </state>
-    <state width="1356" height="205" key="GridCell.Tab.0.right/0.0.1421.848@0.0.1421.848" timestamp="1605368383102" />
+    <state width="1357" height="258" key="GridCell.Tab.0.right/0.0.1421.848@0.0.1421.848" timestamp="1605432792832" />
+    <state width="1357" height="258" key="GridCell.Tab.1.bottom" timestamp="1605432792833">
+      <screen x="0" y="0" width="1421" height="848" />
+    </state>
+    <state width="1357" height="258" key="GridCell.Tab.1.bottom/0.0.1421.848@0.0.1421.848" timestamp="1605432792833" />
+    <state width="1357" height="258" key="GridCell.Tab.1.center" timestamp="1605432792833">
+      <screen x="0" y="0" width="1421" height="848" />
+    </state>
+    <state width="1357" height="258" key="GridCell.Tab.1.center/0.0.1421.848@0.0.1421.848" timestamp="1605432792833" />
+    <state width="1357" height="258" key="GridCell.Tab.1.left" timestamp="1605432792832">
+      <screen x="0" y="0" width="1421" height="848" />
+    </state>
+    <state width="1357" height="258" key="GridCell.Tab.1.left/0.0.1421.848@0.0.1421.848" timestamp="1605432792832" />
+    <state width="1357" height="258" key="GridCell.Tab.1.right" timestamp="1605432792833">
+      <screen x="0" y="0" width="1421" height="848" />
+    </state>
+    <state width="1357" height="258" key="GridCell.Tab.1.right/0.0.1421.848@0.0.1421.848" timestamp="1605432792833" />
     <state x="191" y="0" key="SettingsEditor" timestamp="1605063038762">
       <screen x="0" y="0" width="1421" height="848" />
     </state>
@@ -418,10 +438,10 @@
       <screen x="0" y="0" width="1421" height="848" />
     </state>
     <state x="97" y="69" key="new project wizard/0.0.1421.848@0.0.1421.848" timestamp="1605070756183" />
-    <state x="368" y="169" width="672" height="678" key="search.everywhere.popup" timestamp="1605410217693">
+    <state x="367" y="169" width="672" height="678" key="search.everywhere.popup" timestamp="1605431560469">
       <screen x="0" y="0" width="1421" height="848" />
     </state>
-    <state x="368" y="169" width="672" height="678" key="search.everywhere.popup/0.0.1421.848@0.0.1421.848" timestamp="1605410217693" />
+    <state x="367" y="169" width="672" height="678" key="search.everywhere.popup/0.0.1421.848@0.0.1421.848" timestamp="1605431560469" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

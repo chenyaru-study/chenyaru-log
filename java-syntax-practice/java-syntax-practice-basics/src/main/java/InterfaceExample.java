@@ -1,5 +1,6 @@
 package src.main.java;
 
+import src.main.dto.MyClass;
 import src.main.service.StringFunc;
 import src.main.utils.LengthComparator;
 import src.main.utils.MyStringOps;
@@ -10,6 +11,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Date;
 import java.util.function.BiFunction;
 
@@ -20,7 +22,7 @@ public class InterfaceExample {
         //lambdaTest();
        // InterfaceExample interfaceExample = new InterfaceExample();
        // interfaceExample.countDown(1,10000);
-        String temp = null;
+        /*String temp = null;
         ArrayList<String> list = new ArrayList<>();
         list.add("1");
         list.add("2");
@@ -28,21 +30,8 @@ public class InterfaceExample {
         System.out.println("lengthBefore = " + list.size());
         list.removeIf(e -> e == null);//Predicate函数式接口
         System.out.println("lengthAfter = " + list.size());
-        String strReversalBefore = "str";
-        System.out.println("strReversalBefore = " + strReversalBefore);
-
-        //lambda代码块方式反转字符串
-        String strReversalAfter = stringOp(str -> {
-            String result = "";
-            for(int i = str.length() -1; i >= 0; i--){
-                result += str.charAt(i);
-            }
-            return result;
-        },strReversalBefore);
-        System.out.println("lambda代码块方式-strReveresalAfter " + strReversalAfter);
-        //lambda方法引用方式反转字符串
-        strReversalAfter = stringOp(MyStringOps:: strReverse,strReversalBefore);
-        System.out.println("lambda方法引用方式-strReversalAfter" + Arrays.deepToString(args));
+         */
+        findMaxVal();
     }
 
     /**
@@ -112,7 +101,27 @@ public class InterfaceExample {
     }
 
     /**
-     *
+     * Java-lambda表达式【() -> {}和 方法引用 :: 两种方式】 反转字符串
+     */
+    public static void strReversal(){
+        String strReversalBefore = "str";
+        System.out.println("strReversalBefore = " + strReversalBefore);
+        //lambda代码块方式反转字符串
+        String strReversalAfter = stringOp(str -> {
+            String result = "";
+            for(int i = str.length() -1; i >= 0; i--){
+                result += str.charAt(i);
+            }
+            return result;
+        },strReversalBefore);
+        System.out.println("lambda代码块方式-strReveresalAfter " + strReversalAfter);
+        //lambda方法引用方式反转字符串
+        strReversalAfter = stringOp(MyStringOps:: strReverse,strReversalBefore);
+        System.out.println("lambda方法引用方式-strReversalAfter " + strReversalAfter);
+    }
+
+    /**
+     *Java -lambda表达式 反转字符串
      * @param str
      * @param s
      * @return
@@ -120,4 +129,26 @@ public class InterfaceExample {
     public static String stringOp(StringFunc str, String s){
         return str.func(s);
     }
+
+    /**
+     * Java-lambda表达式，查找集合最大元素值
+     */
+    public static void findMaxVal() {
+        ArrayList<MyClass> arrList = new ArrayList<>();
+        arrList.add(new MyClass(1));
+        arrList.add(new MyClass(2));
+        //() -> {}方式
+        MyClass myClassMax = Collections.max(arrList,(MyClass myClassA,MyClass myClassB) -> {
+            return myClassA.getVal() - myClassB.getVal();
+        });
+        System.out.println(myClassMax.getVal());
+        // :: 方式
+        myClassMax = Collections.max(arrList,InterfaceExample::compareMax);
+        System.out.println(myClassMax.getVal());
+    }
+
+    public static int compareMax(MyClass myClassA, MyClass myClassB){
+        return myClassA.getVal() - myClassB.getVal();
+    }
+
 }
