@@ -1,4 +1,5 @@
 /**
+ * 数据结构-链表学习DTO
  * Created by c_chenyaru on 2020/10/23.
  */
 public class ChainListDto {

@@ -6,6 +6,9 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Date;
 
+/**
+ * 《Java核心技术 第10卷》-内部类学习（工具类）
+ */
 public class TalkingClock {
     private int internal;
     private final boolean beep;

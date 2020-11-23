@@ -6,6 +6,9 @@ import src.main.utils.TalkingClock;
 import javax.swing.*;
 import java.util.ArrayList;
 
+/**
+ * 《Java核心技术 第10卷》-内部类学习
+ */
 public class InnerClassMain {
     public static void main(String[] args) {
         innerClassTest();

@@ -15,6 +15,9 @@ import java.util.Collections;
 import java.util.Date;
 import java.util.function.BiFunction;
 
+/**
+ * 《Java核心技术 第10卷》-接口、lambda表达式学习
+ */
 public class InterfaceExample {
     public static void main(String[] args) {
        // timerTest();

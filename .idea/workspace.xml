@@ -5,13 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b2205aa-ecd8-4c2a-8fc1-3897b30b3cef" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/dto/MyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/java/InnerClassMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/utils/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/utils/TalkingClock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structure-algorithm/src/main/dto/CBTType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structure-algorithm/src/main/java/CBTTypeDemoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structure-algorithm/src/main/java/ExhaustiveAttackmethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structure-algorithm/src/main/java/RecursiveAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structure-algorithm/src/main/java/RecursiveMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-data-structure-algorithm/src/note/数据结构与算法学习笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/dto/DataInterval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/dto/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/java/ExceptionHandling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/java/GatherMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/java/GenericClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/service/impl/ExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/service/impl/ExceptionTestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/utils/ArrayAlg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/utils/FileFormatException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-data-structure-algorithm/src/main/dto/ChainListDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-data-structure-algorithm/src/main/dto/ChainListDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-data-structure-algorithm/src/main/dto/ChainListType.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-data-structure-algorithm/src/main/dto/ChainListType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-data-structure-algorithm/src/main/java/DataStructureDemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-data-structure-algorithm/src/main/java/DataStructureDemoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/java/InnerClassMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/java/InnerClassMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/java/InterfaceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/java/InterfaceExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/service/StringFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/service/StringFunc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/utils/TalkingClock.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-syntax-practice/java-syntax-practice-basics/src/main/utils/TalkingClock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-management-tools/Git/Git命令整理.md" beforeDir="false" afterPath="$PROJECT_DIR$/project-management-tools/Git/Git命令整理.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +79,7 @@
       <recent name="E:\java-language-practice\java-data-structure-algorithm\src\main\dto" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InnerClassMain">
+  <component name="RunManager" selected="Application.CBTTypeDemoMain">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -157,8 +173,24 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration name="DemoMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.main.java.DemoMain" />
+    <configuration name="CBTTypeDemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CBTTypeDemoMain" />
+      <module name="java-language-practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../java-language-practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExhaustiveAttackmethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExhaustiveAttackmethod" />
+      <module name="java-language-practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../java-language-practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.main.java.GenericClass" />
       <module name="java-language-practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../java-language-practice" />
       <extension name="coverage">
@@ -171,58 +203,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DemoMain" />
+    <configuration name="RecursiveAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecursiveAlgorithm" />
       <module name="java-language-practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../java-language-practice" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InnerClassMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.main.java.InnerClassMain" />
+    <configuration name="RecursiveMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecursiveMethod" />
       <module name="java-language-practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../java-language-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.main.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InterfaceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.main.java.InterfaceExample" />
-      <module name="java-language-practice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../java-language-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.main.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.main.utils.LinkedList" />
-      <module name="java-language-practice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../java-language-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.main.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../java-language-practice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -311,19 +322,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.DemoMain" />
-      <item itemvalue="Application.DemoMain (1)" />
-      <item itemvalue="Application.InterfaceExample" />
-      <item itemvalue="Application.LinkedList" />
-      <item itemvalue="Application.InnerClassMain" />
+      <item itemvalue="Application.GenericClass" />
+      <item itemvalue="Application.CBTTypeDemoMain" />
+      <item itemvalue="Application.ExhaustiveAttackmethod" />
+      <item itemvalue="Application.RecursiveAlgorithm" />
+      <item itemvalue="Application.RecursiveMethod" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InnerClassMain" />
-        <item itemvalue="Application.LinkedList" />
-        <item itemvalue="Application.InterfaceExample" />
-        <item itemvalue="Application.DemoMain (1)" />
-        <item itemvalue="Application.DemoMain" />
+        <item itemvalue="Application.CBTTypeDemoMain" />
+        <item itemvalue="Application.RecursiveMethod" />
+        <item itemvalue="Application.RecursiveAlgorithm" />
+        <item itemvalue="Application.ExhaustiveAttackmethod" />
+        <item itemvalue="Application.GenericClass" />
       </list>
     </recent_temporary>
   </component>
@@ -367,6 +378,16 @@
       <workItem from="1605333947066" duration="5546000" />
       <workItem from="1605357727653" duration="6920000" />
       <workItem from="1605408345514" duration="15153000" />
+      <workItem from="1605493878165" duration="19145000" />
+      <workItem from="1605529658570" duration="3049000" />
+      <workItem from="1605581384213" duration="18325000" />
+      <workItem from="1605620909802" duration="1559000" />
+      <workItem from="1605664532217" duration="1683000" />
+      <workItem from="1605713235496" duration="838000" />
+      <workItem from="1605761992877" duration="2903000" />
+      <workItem from="1605847405571" duration="2977000" />
+      <workItem from="1605927237589" duration="23414000" />
+      <workItem from="1606016336011" duration="7494000" />
     </task>
     <servers />
   </component>
@@ -382,10 +403,10 @@
       <screen x="0" y="0" width="1421" height="848" />
     </state>
     <state x="165" y="79" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1421.848@0.0.1421.848" timestamp="1604723236928" />
-    <state x="507" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1605429293104">
+    <state x="507" y="166" key="#com.intellij.ide.util.MemberChooser" timestamp="1605847848588">
       <screen x="0" y="0" width="1421" height="848" />
     </state>
-    <state x="507" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1421.848@0.0.1421.848" timestamp="1605429293104" />
+    <state x="507" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1421.848@0.0.1421.848" timestamp="1605847848588" />
     <state x="445" y="344" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604936808155">
       <screen x="0" y="0" width="1421" height="848" />
     </state>
@@ -394,26 +415,26 @@
       <screen x="0" y="0" width="1421" height="848" />
     </state>
     <state x="433" y="227" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1421.848@0.0.1421.848" timestamp="1604937140465" />
-    <state x="367" y="140" key="FileChooserDialogImpl" timestamp="1605024042531">
+    <state x="367" y="140" key="FileChooserDialogImpl" timestamp="1605870338260">
       <screen x="0" y="0" width="1421" height="848" />
     </state>
-    <state x="367" y="140" key="FileChooserDialogImpl/0.0.1421.848@0.0.1421.848" timestamp="1605024042531" />
-    <state width="1357" height="258" key="GridCell.Tab.0.bottom" timestamp="1605432792832">
+    <state x="367" y="140" key="FileChooserDialogImpl/0.0.1421.848@0.0.1421.848" timestamp="1605870338260" />
+    <state width="1363" height="205" key="GridCell.Tab.0.bottom" timestamp="1606091023981">
       <screen x="0" y="0" width="1421" height="848" />
     </state>
-    <state width="1357" height="258" key="GridCell.Tab.0.bottom/0.0.1421.848@0.0.1421.848" timestamp="1605432792832" />
-    <state width="1357" height="258" key="GridCell.Tab.0.center" timestamp="1605432792832">
+    <state width="1363" height="205" key="GridCell.Tab.0.bottom/0.0.1421.848@0.0.1421.848" timestamp="1606091023981" />
+    <state width="1363" height="205" key="GridCell.Tab.0.center" timestamp="1606091023981">
       <screen x="0" y="0" width="1421" height="848" />
     </state>
-    <state width="1357" height="258" key="GridCell.Tab.0.center/0.0.1421.848@0.0.1421.848" timestamp="1605432792832" />
-    <state width="1357" height="258" key="GridCell.Tab.0.left" timestamp="1605432792832">
+    <state width="1363" height="205" key="GridCell.Tab.0.center/0.0.1421.848@0.0.1421.848" timestamp="1606091023981" />
+    <state width="1363" height="205" key="GridCell.Tab.0.left" timestamp="1606091023981">
       <screen x="0" y="0" width="1421" height="848" />
     </state>
-    <state width="1357" height="258" key="GridCell.Tab.0.left/0.0.1421.848@0.0.1421.848" timestamp="1605432792832" />
-    <state width="1357" height="258" key="GridCell.Tab.0.right" timestamp="1605432792832">
+    <state width="1363" height="205" key="GridCell.Tab.0.left/0.0.1421.848@0.0.1421.848" timestamp="1606091023981" />
+    <state width="1363" height="205" key="GridCell.Tab.0.right" timestamp="1606091023981">
       <screen x="0" y="0" width="1421" height="848" />
     </state>
-    <state width="1357" height="258" key="GridCell.Tab.0.right/0.0.1421.848@0.0.1421.848" timestamp="1605432792832" />
+    <state width="1363" height="205" key="GridCell.Tab.0.right/0.0.1421.848@0.0.1421.848" timestamp="1606091023981" />
     <state width="1357" height="258" key="GridCell.Tab.1.bottom" timestamp="1605432792833">
       <screen x="0" y="0" width="1421" height="848" />
     </state>
@@ -430,6 +451,10 @@
       <screen x="0" y="0" width="1421" height="848" />
     </state>
     <state width="1357" height="258" key="GridCell.Tab.1.right/0.0.1421.848@0.0.1421.848" timestamp="1605432792833" />
+    <state x="364" y="143" width="729" height="592" key="NewModule_or_Project.wizard" timestamp="1605870345450">
+      <screen x="0" y="0" width="1421" height="848" />
+    </state>
+    <state x="364" y="143" width="729" height="592" key="NewModule_or_Project.wizard/0.0.1421.848@0.0.1421.848" timestamp="1605870345450" />
     <state x="191" y="0" key="SettingsEditor" timestamp="1605063038762">
       <screen x="0" y="0" width="1421" height="848" />
     </state>
@@ -438,10 +463,10 @@
       <screen x="0" y="0" width="1421" height="848" />
     </state>
     <state x="97" y="69" key="new project wizard/0.0.1421.848@0.0.1421.848" timestamp="1605070756183" />
-    <state x="367" y="169" width="672" height="678" key="search.everywhere.popup" timestamp="1605431560469">
+    <state x="367" y="169" width="672" height="678" key="search.everywhere.popup" timestamp="1606017461192">
       <screen x="0" y="0" width="1421" height="848" />
     </state>
-    <state x="367" y="169" width="672" height="678" key="search.everywhere.popup/0.0.1421.848@0.0.1421.848" timestamp="1605431560469" />
+    <state x="367" y="169" width="672" height="678" key="search.everywhere.popup/0.0.1421.848@0.0.1421.848" timestamp="1606017461192" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
